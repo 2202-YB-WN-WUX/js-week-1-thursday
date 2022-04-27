@@ -98,8 +98,8 @@ function divide() {
   console.log(result);
 };
 
-
-Prompt the user for a name and an age.
-Show the user's name and age on the screen.
-Use a function to show the data.
-Tip: show it through the console log first.
+// Activity
+// Prompt the user for a name and an age.
+// Show the user's name and age on the screen.
+// Use a function to show the data.
+// Tip: show it through the console log first.
