@@ -1,105 +1,81 @@
-// hello
-// console.log("Hello World");
+// test
+// test
+function helloWorld() {
+  console.log("Hello World");
+  var name = "Vitamin B";
+  console.log("Hello Daddy" + name);
+}
+console.log(name);
 
-// get the result element by id
-// document.getElementById('h1').innerHTML = "Gidday mate";
-// document.getElementById('result').innerHTML = "<h2>Hello</h2>" + "<p>Another bit of text</p>" +
-// "<h3>An h3</h3>";
+console.log(new Date().getFullYear());
 
-// document.getElementById('result').innerHTML += "<p>Here's another thing</p>"
-
-// variables
-// var pi = 3.14;
-// var streetNumber = 11;
-// var pet = "Cat";
-// var piTimesThree = pi * 3;
-// console.log(piTimesThree);
+// helloWorld();
+alert("Today's date is: " + new Date());
+alert("hello");
 //
-// var petGreeting = "Hello " + pet;
-// console.log(petGreeting);
-//
-// document.getElementById('result').innerHTML = "<h1>" + pi + "</h1>";
-// document.getElementById('location').innerHTML = "Your street number is " + (streetNumber + 2);
-// // console.log(pet);
-//
-// var celcius = 90;
-// var farenheight = (celcius * 1.8) + 32;
-// console.log(farenheight);
+// Create a function which, when called,
+// prompts the user for their name.
+// Once they've entered their name,
+// the function shows an alert saying "Hello, [Username]"
 
-// --Activity--
-// - Use var and innerHTML to show your name, age and favorite food in an "about-me" div
-// - The div should contain an h2 saying "About me"
-// - Show the data in an unordered list (ul)
-
-// var name = "tim";
-// var age = 25;
-// var food ="pho";
+// promptName();
 //
-// document.getElementById('about-me').innerHTML = "<h2>About me</h2>";
-// document.getElementById('about-me').innerHTML += "<ul>" +
-// "<li>Name: " + name + "</li>" +
-// "<li>Age: " + age + "</li>" +
-// "<li>Favorite Food: " + food + "</li>" +
-// "</ul>"
+// function promptName() {
+//   var name = prompt("What's your name?");
+//   alert("Hi, " + name);
+// }
+
+
+// Number multiplier.
+// Create a function which, when called, prompts the user for two numbers.
+// The function multiplies the two numbers together and
+// shows the result in an alert.
 //
-// var vaccinePass = true;
-// var hungry = true;
-// console.log("Am I hungry now? " + hungry);
+// function multiplier() {
+//   var num1 = prompt("First number?");
+//   var num2 = prompt("Second number?");
+//   var result = num1 * num2;
+//   alert(num1 + "x" + num2 + "=" + result);
+// }
+// multiplier();
 
-// var yourName = prompt("What is your name?");
-// var hairColour = prompt("What is your hair colour?");
-// document.getElementById('result').innerHTML = "Hello " + yourName + "<p>Your hair colour is: " + hairColour + "</p>";
+//
+// var haikuContainer = document.getElementById('haiku');
+// haikuContainer.innerHTML = "hello";
 
+var firstButton = document.getElementById("first-button");
+var experimentDiv = document.getElementById("experiment");
+var size = 150;
+
+// firstButton.onclick = function() {
+//   console.log("You clicked me");
+//   size = size * 2;
+//   // experimentDiv.style.display = "none";
+//   experimentDiv.style.color = "white";
+//   experimentDiv.style.margin = "50px";
+//   experimentDiv.style.padding = size + "px";
+//   experimentDiv.style.width = size + "px";
+//   experimentDiv.style.backgroundColor = "blue";
+// }
+
+//
 // Activity:
-// The app will ask for two numbers.
-// It will then multiply the numbers together.
-// The result will show in the console log, in the format
-// "x * y ="
-
-// var x = prompt("Number 1?");
-// var y = prompt("Number 2?");
-// var result = x * y;
-// console.log(x + " times " + y + " is " + result);
-
-// Activity:
-// Ask the user for the temperature in celcius
-// Show the temperature on the screen in farenheight
-// In the format "12 degrees c = 45 deg farenheight".
+// 1. Create a button which, when clicked, increases it's own
+// padding to 100px;
 //
-// If you've finished, create a style.css and give your
-// temperature classes to style it
+// 2. Create a button which, when clicked, multiplies a number
+// by 2, and sets this number as the padding.
 //
-// var string = "<h1 class='big'>Big Text</h1>";
-
-// var c = prompt("What's the temperature");
-// var f = (c * 1.8) + 32;
-// var className = prompt("What class do you want to give this element?");
-
-// document.getElementById('result').innerHTML = "<div class=" + className + ">" + c + " degrees celcius is equal to " +
-// f + " degrees f </div>";
-
-// Get a prompt asking for a colour either blue, red or green
-// Put this class on the result element to change it's color based on
-// the user's input
-
-function greeting() {
-  console.log("Hey man");
-};
-
-greeting();
-
-var x = 4;
-var y = 6;
-// calling the function
-divide();
-
-function divide() {
-  var result = x / y;
-  console.log(result);
-};
-
-// Activity
-// Prompt the user for a name and an age.
-// Show the user's name and age on the screen.
-// Use a function to show the data.
-// Tip: show it through the console log first.
+// -----------------CLOUD LEARNING----------------
+//
+// Using bootstrap icons, add an icon to your page.
+// Create a button which, when clicked, makes the icon smaller.
+// Create a button which, when clicked, makes the icon bigger.
+//
+// Read the article: https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+// up until you get to the const section.
+//
+// -Come to class tomorrow morning with an answer to the following questions…
+// -What is the problem with using the var statement?
+// -What is now commonly preferred for variable declaration? Why is it preferred?
+// -What does block scoped mean?
